@@ -1,5 +1,5 @@
 resource "random_pet" "azurerm_kubernetes_cluster_name" {
-  prefix = "cluster"
+  prefix = "k8"
 }
 
 resource "random_pet" "azurerm_kubernetes_cluster_dns_prefix" {
